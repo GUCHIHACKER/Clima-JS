@@ -1,0 +1,111 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+form {
+    margin: 20px 0;
+    text-align: center;
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+select,
+button {
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#clima-info {
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+#mapa {
+    position: relative;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.esfera {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: #36a062;
+    /* Color de la esfera */
+    border-radius: 50%;
+    /* Asegura que el div tenga forma de círculo */
+    left: 50%;
+    top: 56.5%;
+    transform: translate(-50%, -50%);
+    opacity: 0.3;
+    /* Opacidad para simular una esfera transparente */
+}
+
+#weather-body.sunny {
+    background-color: #ecda72;
+}
+
+#weather-body.cloudy {
+    background-color: #d3d3d3;
+}
+
+#weather-body.rainy {
+    background-color: #4682b4;
+}
+
+#weather-body.snow {
+    background-color: #ffffff;
+}
+
+#weather-body.thunderstorm {
+    background-color: #800000;
+}
+
+#div-form {
+    padding: 8px;
+    font-size: 30px;
+    margin-right: 10px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Aplicacion del clima</title>
+</head>
+<body id="weather-body">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <h1>Aplicacion del clima</h1>
+    <form>
+        <label for="inputSitio">Elija la ubicacion:</label>
+        <div id="div-form">
+            <input type="text" id="inputSitio" placeholder="Ingrese el nombre del lugar"></input>
+            <button type="button" onclick="obtenerCoordenadas()">Buscar</button>
+        </div>
+    </form>
+    <div id="clima-info"></div>
+    <div id="mapa">
+        <div class="esfera"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
